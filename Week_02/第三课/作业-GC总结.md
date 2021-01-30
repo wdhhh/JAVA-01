@@ -1,8 +1,8 @@
 ## 一、压测分析
-
+windows系统 4核8G
 ### 1.压测gateway.jar
 
-sb 30并发50秒
+使用sb 30并发50秒
 
 | gc       | XMX  | YGC  | YGCAvg | YGCMin/Max | FGC  | FGCAvg | FGCMin/Max | Duration      | Pause Total | RPS    | remark                |
 | -------- | ---- | ---- | ------ | ---------- | ---- | ------ | ---------- | ------------- | ----------- | ------ | --------------------- |
