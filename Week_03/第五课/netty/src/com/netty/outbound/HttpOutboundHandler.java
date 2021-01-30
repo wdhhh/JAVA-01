@@ -81,6 +81,12 @@ public class HttpOutboundHandler {
         proxyService.submit(()->getUrl(fullHttpRequest,ctx,url));
     }
 
+    /**
+     *  作业：整合httpClient
+     * @param fullHttpRequest
+     * @param ctx
+     * @param url
+     */
     public void getUrl(final FullHttpRequest fullHttpRequest,final ChannelHandlerContext ctx,final String url){
         HttpGet httpGet = new HttpGet(url);
         httpClient.execute(httpGet, new FutureCallback<HttpResponse>() {
