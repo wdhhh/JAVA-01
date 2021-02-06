@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="febdda6c-ddc4-4ca1-a9b7-be5f5f894500" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrent.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/META-INF/concurrent.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/CallableTask.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/CountDownLatchTask.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/CustomThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Homework03$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Homework03.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Thread01.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Thread02.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Thread03.class" beforeDir="false" />
@@ -25,13 +12,12 @@
       <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Thread05.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/concurrent/CallableTask.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/concurrent/CountDownLatchTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrent/CustomThreadFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Homework03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/CustomThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/concurrent/utils/CustomThreadFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/concurrent/Thread01_Future.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/concurrent/Thread02_Excutors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/concurrent/Thread03_ThreadPoolExcutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/concurrent/Thread04_CompletableFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/concurrent/Thread05_CountDownLatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +158,7 @@
       <updated>1612267500232</updated>
       <workItem from="1612267504764" duration="7136000" />
       <workItem from="1612528912605" duration="7603000" />
-      <workItem from="1612572482444" duration="6751000" />
+      <workItem from="1612572482444" duration="6380000" />
     </task>
     <servers />
   </component>
@@ -193,25 +179,25 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1233" y="215" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612572511046" />
-    <state width="1867" height="242" key="GridCell.Tab.0.bottom" timestamp="1612615349194">
+    <state width="1867" height="242" key="GridCell.Tab.0.bottom" timestamp="1612614951631">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="242" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612615349194" />
+    <state width="1867" height="242" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612614951631" />
     <state width="1867" height="241" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
-    <state width="1867" height="242" key="GridCell.Tab.0.center" timestamp="1612615349194">
+    <state width="1867" height="242" key="GridCell.Tab.0.center" timestamp="1612614951631">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="242" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612615349194" />
+    <state width="1867" height="242" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612614951631" />
     <state width="1867" height="241" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
-    <state width="1867" height="242" key="GridCell.Tab.0.left" timestamp="1612615349194">
+    <state width="1867" height="242" key="GridCell.Tab.0.left" timestamp="1612614951631">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="242" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612615349194" />
+    <state width="1867" height="242" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612614951631" />
     <state width="1867" height="241" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
-    <state width="1867" height="242" key="GridCell.Tab.0.right" timestamp="1612615349194">
+    <state width="1867" height="242" key="GridCell.Tab.0.right" timestamp="1612614951631">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="242" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612615349194" />
+    <state width="1867" height="242" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612614951631" />
     <state width="1867" height="241" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
     <state width="1867" height="241" key="GridCell.Tab.1.bottom" timestamp="1612538677296">
       <screen x="0" y="0" width="1920" height="1040" />
