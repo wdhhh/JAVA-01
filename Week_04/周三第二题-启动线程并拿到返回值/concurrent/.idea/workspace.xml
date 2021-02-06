@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="febdda6c-ddc4-4ca1-a9b7-be5f5f894500" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/META-INF/concurrent.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/CallableTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/CountDownLatchTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/CustomThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Homework03$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Homework03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Thread01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Thread02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Thread03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Thread04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/concurrent/Thread05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/CallableTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/CountDownLatchTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/CustomThreadFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Homework03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/concurrent/Thread05.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1nvPH1YUVYkySiMbG88CSBmgdJ6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../causeCode/JavaCourseCodes/03concurrency/0301" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.concurrent" />
+      <recent name="com.concurrent.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\资料\学习\学习笔记\geekTime\work\JAVA-01\Week_04\第七课\concurrent\src\com\concurrent" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Thread11_Condition">
+    <configuration name="Thread01_Future" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.Thread01_Future" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Thread03_ThreadPoolExcutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.Thread03_ThreadPoolExcutor" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Thread07_Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.Thread07_Join" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Thread11_Condition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.Thread11_Condition" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Thread12_Sleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.concurrent.Thread12_Sleep" />
+      <module name="concurrent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Thread11_Condition" />
+      <item itemvalue="Application.Thread12_Sleep" />
+      <item itemvalue="Application.Thread03_ThreadPoolExcutor" />
+      <item itemvalue="Application.Thread07_Join" />
+      <item itemvalue="Application.Thread01_Future" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Thread11_Condition" />
+        <item itemvalue="Application.Thread12_Sleep" />
+        <item itemvalue="Application.Thread07_Join" />
+        <item itemvalue="Application.Thread01_Future" />
+        <item itemvalue="Application.Thread03_ThreadPoolExcutor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="febdda6c-ddc4-4ca1-a9b7-be5f5f894500" name="Default Changelist" comment="" />
+      <created>1612267500232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612267500232</updated>
+      <workItem from="1612267504764" duration="7136000" />
+      <workItem from="1612528912605" duration="7603000" />
+      <workItem from="1612572482444" duration="6751000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="624" y="215" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1612538302681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="215" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538302681" />
+    <state x="-1202" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1612575429876">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1202" y="155" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612575429876" />
+    <state x="718" y="155" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612269436699" />
+    <state x="-1233" y="215" key="FileChooserDialogImpl" timestamp="1612572511046">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1233" y="215" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612572511046" />
+    <state width="1867" height="242" key="GridCell.Tab.0.bottom" timestamp="1612615349194">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="242" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612615349194" />
+    <state width="1867" height="241" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
+    <state width="1867" height="242" key="GridCell.Tab.0.center" timestamp="1612615349194">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="242" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612615349194" />
+    <state width="1867" height="241" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
+    <state width="1867" height="242" key="GridCell.Tab.0.left" timestamp="1612615349194">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="242" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612615349194" />
+    <state width="1867" height="241" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
+    <state width="1867" height="242" key="GridCell.Tab.0.right" timestamp="1612615349194">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="242" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1612615349194" />
+    <state width="1867" height="241" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
+    <state width="1867" height="241" key="GridCell.Tab.1.bottom" timestamp="1612538677296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="241" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
+    <state width="1867" height="241" key="GridCell.Tab.1.center" timestamp="1612538677296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="241" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
+    <state width="1867" height="241" key="GridCell.Tab.1.left" timestamp="1612538677296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="241" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
+    <state width="1867" height="241" key="GridCell.Tab.1.right" timestamp="1612538677296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="241" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1612538677296" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="java.lang.ThreadLocal" fieldName="threadLocalHashCode" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
