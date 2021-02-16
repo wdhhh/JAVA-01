@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="user_aa" class="bean.User">
+        <property name="name" value="aa"></property>
+        <property name="age" value="22"></property>
+        <property name="no" value="01"></property>
+    </bean>
+
+    <bean id="user_bb" class="bean.User">
+        <property name="name" value="bb"></property>
+        <property name="age" value="23"></property>
+        <property name="no" value="02"></property>
+    </bean>
+
+    <bean id="userGroup1" class="bean.UserGroup">
+        <property name="groupName" value="小组1"></property>
+        <property name="userList">
+            <list>
+                <ref bean="user_aa"></ref>
+                <ref bean="user_bb"></ref>
+            </list>
+        </property>
+    </bean>
+
+    <!--使用context命名空间，通知spring扫描指定目录，进行注解的解析-->
+    <context:component-scan base-package="bean"/>
+
+    <bean id="company" class="bean.Company"></bean>
+</beans>
