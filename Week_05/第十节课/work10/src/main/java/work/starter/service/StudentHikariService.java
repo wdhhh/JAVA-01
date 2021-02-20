@@ -66,10 +66,6 @@ public class StudentHikariService {
         return jdbcTemplate.queryForList("select * from student");
     }
 
-    /*long id = resultSet.getLong("id");
-    String name = resultSet.getString("name");
-            System.out.println("学生-id：" + id + ",姓名：" + name);*/
-
     /**
      * 批量更新
      * @param students
